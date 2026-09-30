@@ -43,7 +43,7 @@ export default function Home() {
                     : 'text-neutral-500 hover:text-neutral-800'
                 }`}
               >
-                <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} />
+                <Icon className="h-[18px] w-[18px]" />
                 <span className="text-[10px] font-body font-medium tracking-wide">
                   {tab.label}
                 </span>
